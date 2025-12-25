@@ -1,9 +1,0 @@
-
-مقاله (Paper):
-https://arxiv.org/abs/2201.03545
-کد منبع (Source Code):
-The official implementation is in PyTorch and is part of the popular timm library, making it very easy to use.
-Official GitHub Repository: https://github.com/facebookresearch/ConvNeXt
-دیتاست (Dataset):
-The easy dataset for this paper is CIFAR-10. It is built into PyTorch and TensorFlow, so you can load it with just a few lines of code.
-Link to Dataset Info: https://www.cs.toronto.edu/~kriz/cifar.html
