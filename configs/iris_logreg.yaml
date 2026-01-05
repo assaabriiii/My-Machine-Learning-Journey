@@ -1,0 +1,22 @@
+experiment:
+  name: "iris_logreg"
+  seed: 42
+
+data:
+  dataset: "iris"
+  implicit: false
+  negatives: 0
+
+model:
+  type: "LogReg"
+  embedding_dim: 0
+
+train:
+  epochs: 200
+  lr: 0.1
+  batch_size: 16
+  weight_decay: 0.0
+
+eval:
+  k: [0]
+  metrics: ["accuracy"]

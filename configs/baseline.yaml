@@ -1,0 +1,22 @@
+experiment:
+  name: "baseline_popularity"
+  seed: 42
+
+data:
+  dataset: "movielens-100k"
+  implicit: true
+  negatives: 100
+
+model:
+  type: "Popularity"
+  embedding_dim: 0
+
+train:
+  epochs: 1
+  lr: 0.0
+  batch_size: 0
+  weight_decay: 0.0
+
+eval:
+  k: [10, 20]
+  metrics: ["recall", "ndcg"]
